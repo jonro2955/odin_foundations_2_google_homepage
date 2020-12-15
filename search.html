@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jonathan's Google Searchpage</title>
+    <link rel="stylesheet" href="reset.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/search.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+  <body>
+
+    <header>
+      <nav> 
+        <div id="navbar-left">
+          <a class="navlinks" href="index.html"><img src="images/searchlogo.png" alt="search page logo" width="89spx" height="32px"></a>
+          <div id="input-row-search">
+            <form>
+              <input id="textbox-search" type="text">
+            </form>
+            <div id="mic-icon-search">
+              <svg class="HPVvwb" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path><path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path><path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path><path d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z" fill="#ea4335"></path></svg>
+            </div>
+            <div id="magnifier-icon-search">
+              <svg id="svg-mag" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+            </div>       
+          </div>
+        </div>
+        <div id="navbar-right">
+          <button id="app-launcher"><img src="images/app_launcher_icon.png" alt="app launcher" width="23" height="23">
+          <button id="sign-in-button" href="#">Sign in</button>
+        </div>
+      </nav>
+    </header>
+
+    <div id="optionpanecontainer">  <!-- This is the pane with the options for changing the search parameters to images, news, maps, etc. -->
+      <div id="optionpane"> <!-- optionpane div -->
+          <div id="highlightedoption">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256  c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456  C103.821,274.792,107.225,292.797,113.47,309.408z"/>
+              <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451  c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535  c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"/>
+              <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512  c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771  c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"/>
+              <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012  c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0  C318.115,0,375.068,22.126,419.404,58.936z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+            </svg> <!-- could not get correct svgs -->             
+            <div color="#1a73e8">All</div>
+          </div>
+          <div id="option">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256  c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456  C103.821,274.792,107.225,292.797,113.47,309.408z"/>
+              <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451  c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535  c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"/>
+              <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512  c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771  c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"/>
+              <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012  c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0  C318.115,0,375.068,22.126,419.404,58.936z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+            </svg>              
+            <div>News</div>
+          </div>
+          <div id="option">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256  c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456  C103.821,274.792,107.225,292.797,113.47,309.408z"/>
+              <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451  c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535  c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"/>
+              <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512  c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771  c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"/>
+              <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012  c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0  C318.115,0,375.068,22.126,419.404,58.936z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+            </svg>              
+            <div>Maps</div>
+          </div>
+          <div id="option">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256  c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456  C103.821,274.792,107.225,292.797,113.47,309.408z"/>
+              <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451  c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535  c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"/>
+              <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512  c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771  c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"/>
+              <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012  c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0  C318.115,0,375.068,22.126,419.404,58.936z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+            </svg>              
+            <div>Videos</div>
+          </div>
+          <div id="option">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256  c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456  C103.821,274.792,107.225,292.797,113.47,309.408z"/>
+              <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451  c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535  c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"/>
+              <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512  c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771  c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"/>
+              <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012  c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0  C318.115,0,375.068,22.126,419.404,58.936z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+            </svg>              
+            <div>Shopping</div>
+          </div>
+          <div id="option">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+              <path style="fill:#FBBB00;" d="M113.47,309.408L95.648,375.94l-65.139,1.378C11.042,341.211,0,299.9,0,256  c0-42.451,10.324-82.483,28.624-117.732h0.014l57.992,10.632l25.404,57.644c-5.317,15.501-8.215,32.141-8.215,49.456  C103.821,274.792,107.225,292.797,113.47,309.408z"/>
+              <path style="fill:#518EF8;" d="M507.527,208.176C510.467,223.662,512,239.655,512,256c0,18.328-1.927,36.206-5.598,53.451  c-12.462,58.683-45.025,109.925-90.134,146.187l-0.014-0.014l-73.044-3.727l-10.338-64.535  c29.932-17.554,53.324-45.025,65.646-77.911h-136.89V208.176h138.887L507.527,208.176L507.527,208.176z"/>
+              <path style="fill:#28B446;" d="M416.253,455.624l0.014,0.014C372.396,490.901,316.666,512,256,512  c-97.491,0-182.252-54.491-225.491-134.681l82.961-67.91c21.619,57.698,77.278,98.771,142.53,98.771  c28.047,0,54.323-7.582,76.87-20.818L416.253,455.624z"/>
+              <path style="fill:#F14336;" d="M419.404,58.936l-82.933,67.896c-23.335-14.586-50.919-23.012-80.471-23.012  c-66.729,0-123.429,42.957-143.965,102.724l-83.397-68.276h-0.014C71.23,56.123,157.06,0,256,0  C318.115,0,375.068,22.126,419.404,58.936z"/><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
+            </svg>              
+            <div>More</div>
+          </div>
+          <div id="option" >            
+            <div></div> <!--intentionally blank to use as a spacer-->
+          </div>
+          <div id="option" >
+            <div>Settings</div>
+          </div>
+          <div id="option">
+            <div>Tools</div>
+          </div>
+      </div> <!-- /optionpane -->
+    </div> <!-- /optionpanecontainer -->
+
+    <div id="result-stats">About 106,000,000 results (0.69 seconds)</div>
+
+    <div id="grid"> <!--  the grid: the page area is divided into a 3 column grid with only the middle column filled with content  -->
+      <div id="resultscolumn"> <!-- resultscolumn is the middle column of grid -->    
+
+        <div id="result"> <!-- each search result is a div called "result" -->
+          <div id="firstline">
+            <div id="domain">victor-lf.github.io&nbsp; </div> 
+            <div id="url">› google-search-results</div>
+          </div>
+          <div id="title">build this webpage - GitHub Pages</div>
+          <div id="preview">build this webpage. https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180 webpages in 180 days ...</div>
+        </div> 
+
+        <div id="result">
+          <div id="firstline">
+            <div id="domain">christine-27.github.io&nbsp;</div>
+            <div id="url">› google-homepage</div>
+          </div>
+          <div id="title">build this webpage - GitHub Pages</div>
+          <div id="preview">With zero coding experience, artist building 180 webpages . ... days ago, having never done any programming in her life, Jennifer Dewalt built her first webpage.</div>
+        </div> 
+        
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.websitebuilderexpert.com &nbsp;</div>
+            <div id="url">› building-websites</div>
+          </div>
+          <div id="title">How to Build a Website 2020 | The Complete Beginner's Guide</div>
+          <div id="preview">Dec 1, 2020 — How to Build a Website from Scratch. We'll look at how to make a website with both a website builder and WordPress, with no steps left out.</div>
+          <div id="visits">You've visited this page 2 times. Last visit: 12/12/20</div>
+        </div> 
+
+        <div id=faqtable> <!-- faqtable inserted in the results column -->
+          <div class=row1>
+            <div>People also ask</div>
+          </div>
+          <div class=rows>            
+            <div> How can I create my own webpage?</div>
+            <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </div>
+          <div class=rows>            
+            <div> What does it cost to build a Web page?</div>
+            <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </div>
+          <div class=rows>            
+            <div> What is the cheapest way to build a website?</div>
+            <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </div>
+          <div class=rows>            
+            <div> How can I create a simple website?</div>
+            <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </div>
+        </div> <!-- /faqtable  -->
+
+        <!-- the rest of the results. they are all the same because lazy  -->
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id="result"> 
+          <div id="firstline">
+            <div id="domain">www.pcmag.com &nbsp;</div>
+            <div id="url">› ... › Web Hosting</div>
+          </div>
+          <div id="title">How to Create a Website | PCMag</div>
+          <div id="preview">You can use an online service to create web pages, or build it offline using a desktop software tool. Or, if you're a coding dynamo, use a plain text editor to create a ...</div>
+          <div id="visits">You visited this page on 12/12/20.</div>
+        </div> 
+
+        <div id=othersuggestions> <!-- othersuggestions table inserted near the bottom of the results column -->
+          <div class=row1>
+            <div>People also search for</div>
+          </div>
+          <div class=rows>            
+            <div> Web design program </div>
+            <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </div>
+          <div class=rows>            
+            <div> Best website builder </div>
+            <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path></svg>
+          </div>
+        </div> <!-- /othersuggestions  -->
+
+        <div id=moresuggestiongrid> <!-- more suggestions link table: a grid with 1 header row then 2 cols x 4 rows below it -->
+          <div id=msgridheader>
+            <div>Searches related to build this webpage</div>
+          </div>
+          <div id=leftcol>
+            <div id=mslink><a href="#">  how to build a website from scratch    </a></div>
+            <div id=mslink><a href="#">  free website builder</a></div>
+            <div id=mslink><a href="#">  how to design a website</a></div>
+            <div id=mslink><a href="#">  best way to build a website</a></div>
+          </div>
+          <div id=rightcol>
+            <div id=mslink><a href="#">  create professional website</a></div>
+            <div id=mslink><a href="#">  how to build a website from scratch html</a></div>
+            <div id=mslink><a href="#">  how to create a website pdf</a></div>
+            <div id=mslink><a href="#">learn how to build a website</a></div>
+          </div>
+        </div> <!-- /moresuggestiongrid  -->
+
+        <img id=indeximage src="images/resultspageindex.png" alt="resultspageindex" width="359" height="80">  <!-- I just used an image of the results page navigation -->   
+
+      </div>  <!-- /resultscolumn -->
+
+      <div id=foot> <!-- populating the foot areas specified in the css #grid -->
+        <div id=footnav>
+          <a id=location>Canada</a>
+        </div>
+        <div id=footnav>
+          <a class="footlinks" href="#">Help</a>
+          <a class="footlinks" href="#">Send Feedback</a>
+          <a class="footlinks" href="#">Privacy</a>
+          <a class="footlinks" href="#">Terms</a>
+        </div>
+      </div>
+
+    </div>  <!-- /grid  -->
+
+  </body>
+</html>
