@@ -1,4 +1,4 @@
-This is the first in the Odin project's Faoundations. The goal is to make a visual clone of the Google search homepage using basic HTML, CSS and some image resources. You are supposed to build by "eyeballing" google as much as possible before using inspect tool and seeing what others have submitted. 
+This is the first in the Odin project's Foundations. The goal is to make a visual clone of the Google search homepage using basic HTML, CSS and some image resources. You are supposed to build by "eyeballing" google as much as possible before using inspect tool and seeing what others have submitted. The live version: https://jonro2955.github.io/google-homepage/
 
 
 Skills used:
