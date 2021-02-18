@@ -1,4 +1,4 @@
-This is the first coding exercise in the Odin project's Foundations. Link to live version: https://jonro2955.github.io/odin-foundations-2-google_homepage/
+This is the first coding exercise in the Odin project's Foundations. Live version: https://jonro2955.github.io/odin_foundations_2_google_homepage/
 
 The goal is to make a visual clone of the Google search homepage using basic HTML, CSS and some image resources. You are supposed to build by "eyeballing" the google homepage as much as possible before using the browser's inspect tool or seeing others' solutions. 
 
