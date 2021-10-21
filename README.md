@@ -1,5 +1,4 @@
-# Google Homepage
-# https://jonro2955.github.io/odin_foundations_2_google_homepage/
+# Google Homepage: https://jonro2955.github.io/odin_foundations_2_google_homepage/
 
 This is the 2nd project in The Odin Project's Foundations curriculum. 
 
