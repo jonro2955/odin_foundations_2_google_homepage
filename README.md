@@ -1,4 +1,6 @@
-This is the 2nd project in the Odin project's Foundations curriculum. 
+# Google Homepage
+
+This is the 2nd project in The Odin Project's Foundations curriculum. 
 
 The goal is to make a visual clone of the Google search homepage using basic HTML, CSS and some image resources. View the live version: https://jonro2955.github.io/odin_foundations_2_google_homepage/
 
@@ -29,8 +31,7 @@ What I learned:
 
 - Use borders to pinpoint margins and position of an element as you edit.
 
-- Alternate ways of specifying classes or ids for child elements using child identifiers. For example, for p element in some parent, use 
-#parent p{...} . 
+- Alternate ways of specifying classes or ids for child elements using child identifiers. For example, for p element in some parent, use #parent p{...} . 
 
 - Use git to upload project to github.
 
