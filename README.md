@@ -1,9 +1,9 @@
 # Google Homepage
+# https://jonro2955.github.io/odin_foundations_2_google_homepage/
 
 This is the 2nd project in The Odin Project's Foundations curriculum. 
 
-The goal is to make a visual clone of the Google search homepage using basic HTML, CSS and some image resources. View the live version: https://jonro2955.github.io/odin_foundations_2_google_homepage/
-
+The goal is to make a visual clone of the Google search homepage using basic HTML, CSS and some image resources. 
 
 What I learned:
 
