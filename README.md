@@ -3,9 +3,9 @@ A visual clone of the Google search homepage using basic HTML and CSS.
 
 <hr/>
 
-[Live Demo](https://jonro2955.github.io/odin_foundations_2_google_homepage/)
+[Live Site](https://jonro2955.github.io/odin_foundations_2_google_homepage/)
 
-### Focus  
+### Focus Areas
 - HTML
 - CSS grid, flexbox
  
