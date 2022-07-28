@@ -1,5 +1,5 @@
 # Google Homepage Clone
-A visual clone of the Google search homepage using basic HTML and CSS. 
+This is a visual clone of the Google search homepage which I created using basic HTML and CSS. It was an exercise in using the HTML and CSS techniques which I learned in the web-development fundamentals curriculum of The Odin Project. It is not just a single page but two: there is a mock search results page that gets loaded when you click any of the search buttons. Each element was hard coded and styled.
 
 <hr/>
 
